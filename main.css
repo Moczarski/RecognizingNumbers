@@ -1,0 +1,66 @@
+th {
+	font-size: 5vh;
+}
+
+body {
+	background-color: #000F;
+}
+
+div {
+	background-color: #DDDF;
+	width: 50vw;
+	position: relative;
+	left: 23vw;
+}
+
+#info {
+	font-size: 3vh;
+	color: red;
+}
+
+p {
+	font-size: 3vh;
+}
+
+span {
+	font-size: 3vh;
+}
+
+#train {			
+	background-color: black;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	transition-duration: 0.4s;
+}
+
+#train:hover {
+	background-color: #FFFF;
+	color: black;
+}
+
+#recognize {
+	background-color: black;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	transition-duration: 0.4s;
+}
+
+#recognize:hover {
+	background-color: #FFFF;
+	color: black;
+}
+
+#result {
+	font-size: 5vh;
+	color: red;
+}

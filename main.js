@@ -26,12 +26,19 @@ function draw(el) {
 		ctx.lineWidth = pixel
 
 		for (let i = 0; i < moves.length; i++) {
+			
 			ctx.beginPath()
+			
 			if (moves[i] && i) {
+				
 				ctx.moveTo(x[i - 1], y[i - 1])
+				
 			} else {
+				
 				ctx.moveTo(x[i] - 1, y[i])
+				
 			}
+			
 			ctx.lineTo(x[i], y[i])
 			ctx.closePath()
 			ctx.stroke()
@@ -69,8 +76,11 @@ function draw(el) {
 				for(let i = 0; i < data.data.length; i += 4) {
 					
 					const isEmpty = data.data[i] === 0
+					
 					if (!isEmpty) {
+						
 						nonEmptyPixelsCount += 1
+						
 					}
 					
 				}
@@ -102,9 +112,12 @@ function draw(el) {
 		const bounds = event.target.getBoundingClientRect()
 		const x = event.clientX - bounds.left
 		const y = event.clientY - bounds.top
+		
 		if (isPainting) {
+			
 			addPoint(x, y, true)
 			redraw()
+			
 		}
 		
 	})

@@ -2,6 +2,7 @@ function draw(el) {
 	
 	const pixel = 10
 	const ctx = el.getContext('2d')
+	
 	let x = []
 	let y = []
 	let moves = []
@@ -101,6 +102,7 @@ function draw(el) {
 		const bounds = event.target.getBoundingClientRect()
 		const x = event.clientX - bounds.left
 		const y = event.clientY - bounds.top
+		
 		isPainting = true
 		addPoint(x, y, false)
 		redraw()

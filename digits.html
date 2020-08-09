@@ -2,16 +2,13 @@
 <html lang="en">
 <head>
     <title>AIbyMM</title>	
-	<script src="https://unpkg.com/brain.js"></script>		
-    <script src="main.js"></script>	
+	<script src="https://unpkg.com/brain.js"></script><script src="main.js"></script>	
 	<link rel="stylesheet" href="main.css">
 </head>
 <body>
 	<div>		
 		<table align="center" cellspacing="0" cellpadding="10" border="2">		
-			<caption>
-				<h2>DRAW DIGITS</h2>
-			</caption>		
+			<caption><h2>DRAW DIGITS</h2></caption>		
 			<tr>
 				<th>0</th>
 				<td>
@@ -134,9 +131,7 @@
 			</tr>			
 		</table>
 		<table width="100%" align="center">		
-			<caption><br /><br />
-				<button id="train">TRAIN</button><br />
-			</caption>			
+			<caption><br /><br /><button id="train">TRAIN</button><br /></caption>			
 			<tr>
 				<td align="center">
 					<table>
@@ -163,13 +158,8 @@
 				</tr>
 			</table>
 			<table align="center">
-				<caption>
-					<span>RESULT: </span>
-					<span id="result"></span>
-				</caption>
-				<caption>
-					<button id="recognize">RECOGNIZE DIGITS</button>
-				</caption>
+				<caption><span>RESULT: </span><span id="result"></span></caption>
+				<caption><button id="recognize">RECOGNIZE DIGITS</button></caption>
 			</table>			
 	</div>	
 		<script src="training.js">></script>		

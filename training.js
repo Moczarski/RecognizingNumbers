@@ -33,6 +33,7 @@ const gc = new draw(document.getElementById('g'))
 const net = new brain.NeuralNetwork()
 
 train.addEventListener('click', () => {
+	
 	const data = []
 
 	data.push({ input: pc1.getVector(), output: {0: 1} })
@@ -70,10 +71,13 @@ train.addEventListener('click', () => {
 	err.innerHTML = result.error
 	iterations.innerHTML = result.iterations
 	res.removeAttribute('style')
+	
 })
 
 recognize.addEventListener('click', () => {
+	
 	const result = brain.likely(gc.getVector(), net)
 	document.getElementById('result').innerHTML = result
 	gc.reset()
+	
 })

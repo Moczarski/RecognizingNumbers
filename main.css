@@ -17,7 +17,7 @@ div {
 	width: 100vw;
 	display: flex;
 	flex-direction: column;
-	justiofy-content: center;
+	justify-content: center;
 	align-items: center;
 	align-content: center;
 }

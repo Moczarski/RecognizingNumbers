@@ -10,6 +10,10 @@ th {
 
 body {
 	background-color: #000F;
+	display: flex;
+	justiofy-content: center;
+	align-items: center;
+	align-content: center;
 }
 
 div {

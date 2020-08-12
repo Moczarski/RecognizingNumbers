@@ -16,6 +16,7 @@ div {
 	background-color: #DDDF;
 	width: 100vw;
 	display: flex;
+	flex-direction: column;
 	justiofy-content: center;
 	align-items: center;
 	align-content: center;

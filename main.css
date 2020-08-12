@@ -10,15 +10,15 @@ th {
 
 body {
 	background-color: #000F;
-	display: flex;
-	justiofy-content: center;
-	align-items: center;
-	align-content: center;
 }
 
 div {
 	background-color: #DDDF;
 	width: 100vw;
+	display: flex;
+	justiofy-content: center;
+	align-items: center;
+	align-content: center;
 }
 
 #info {

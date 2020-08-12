@@ -14,9 +14,7 @@ body {
 
 div {
 	background-color: #DDDF;
-	min-width: 50vw;
-	position: relative;
-	left: 23vw;
+	width: 100vw;
 }
 
 #info {

@@ -1,3 +1,9 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
 th {
 	font-size: 5vh;
 }
@@ -8,9 +14,7 @@ body {
 
 div {
 	background-color: #DDDF;
-	width: 50vw;
-	position: relative;
-	left: 23vw;
+	width: 100vw;
 }
 
 #info {
@@ -34,7 +38,7 @@ span {
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
-	font-size: 16px;
+	font-size: 3vh;
 	transition-duration: 0.4s;
 }
 
@@ -51,7 +55,7 @@ span {
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
-	font-size: 16px;
+	font-size: 3vh;
 	transition-duration: 0.4s;
 }
 
